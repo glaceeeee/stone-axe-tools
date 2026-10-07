@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stone Axe Tools</title>
+  <link rel="stylesheet" href="style.css">
+  <script async src="main.js"></script>
+</head>
+
+<body>
+  <fieldset>
+    <legend>General</legend>
+    <div>
+      <label for="background">Background: </label>
+      <input type="file" id="background" name="background" required accept="image/png"/>
+    </div>
+
+    <div>
+      <label for="slot-borders">Slot borders: </label>
+      <input type="file" id="slot-borders" name="slot-borders" required accept="image/png"/>
+    </div>
+
+    <div>
+      <label for="ranks">Ranks: </label>
+      <input type="file" id="ranks" name="ranks" required accept="image/png"/>
+    </div>
+
+    <div>
+      <label for="title">Title: </label>
+      <input type="text" id="title" name="title" />
+    </div>
+
+    <div>
+      <label for="top-right-text">Top right text: </label>
+      <input type="text" id="top-right-text" name="top-right-text" />
+    </div>
+
+    <div>
+      <label for="bottom-left-text">Bottom left text: </label>
+      <input type="text" id="bottom-left-text" name="bottom-left-text" />
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Participant 1</legend>
+    <div>
+      <label for="participant1-name">Name: </label>
+      <input type="text" id="participant1-name" name="participant1-name" />
+    </div>
+    <div>
+      <label for="participant1-thumbnail">Thumbnail: </label>
+      <select class="thumbnail-selector" name="participant1-thumbnail" id="participant1-thumbnail">
+        <option value="">-- Please select an option--</option>
+      </select>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Participant 2</legend>
+    <div>
+      <label for="participant2-name">Name: </label>
+      <input type="text" id="participant2-name" name="participant2-name" />
+    </div>
+    <div>
+      <label for="participant2-thumbnail">Thumbnail: </label>
+      <select class="thumbnail-selector" name="participant2-thumbnail" id="participant2-thumbnail">
+        <option value="">-- Please select an option--</option>
+      </select>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Participant 3</legend>
+    <div></div>
+    <label for="participant3-name">Name: </label>
+    <input type="text" id="participant3-name" name="participant3-name" />
+    <div>
+      <label for="participant3-thumbnail">Thumbnail: </label>
+      <select class="thumbnail-selector" name="participant3-thumbnail" id="participant3-thumbnail">
+        <option value="">-- Please select an option--</option>
+      </select>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Participant 4</legend>
+    <div>
+      <label for="participant4-name">Name: </label>
+      <input type="text" id="participant4-name" name="participant4-name" />
+    </div>
+    <div>
+      <label for="participant4-thumbnail">Thumbnail: </label>
+      <select class="thumbnail-selector" name="participant4-thumbnail" id="participant4-thumbnail">
+        <option value="">-- Please select an option--</option>
+      </select>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Participant 5</legend>
+    <div>
+      <label for="participant5-name">Participant 5: </label>
+      <input type="text" id="participant5-name" name="participant5-name" />
+    </div>
+    <div>
+      <label for="participant5-thumbnail">Thumbnail: </label>
+      <select class="thumbnail-selector" name="participant5-thumbnail" id="participant5-thumbnail">
+        <option value="">-- Please select an option--</option>
+      </select>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Participant 6</legend>
+    <div>
+      <label for="participant6-name">Name: </label>
+      <input type="text" id="participant6-name" name="participant6-name" />
+    </div>
+    <div>
+      <label for="participant6-thumbnail">Thumbnail: </label>
+      <select class="thumbnail-selector" name="participant6-thumbnail" id="participant6-thumbnail">
+        <option value="">-- Please select an option--</option>
+      </select>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Participant 7</legend>
+    <div>
+      <label for="participant7-name">Name: </label>
+      <input type="text" id="participant7-name" name="participant7-name" />
+    </div>
+    <div>
+      <label for="participant7-thumbnail">Thumbnail: </label>
+      <select class="thumbnail-selector" name="participant7-thumbnail" id="participant7-thumbnail">
+        <option value="">-- Please select an option--</option>
+      </select>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Participant 8</legend>
+    <div>
+      <label for="participant8-name">Name: </label>
+      <input type="text" id="participant8-name" name="participant8-name" />
+    </div>
+    <div>
+      <label for="participant8-thumbnail">Thumbnail: </label>
+      <select class="thumbnail-selector" name="participant8-thumbnail" id="participant8-thumbnail">
+        <option value="">-- Please select an option--</option>
+      </select>
+    </div>
+  </fieldset>
+
+  <div>
+    <button id="generate-button" type="button">Generate</button>
+  </div>
+
+  <canvas id="result-canvas"></canvas>
+</body>
+</html>
