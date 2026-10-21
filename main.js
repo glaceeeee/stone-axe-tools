@@ -138,43 +138,43 @@ async function generate() {
 
 const thumbnailOptions = [
   {
-    fileName: "images/thumbnails/hBP03-006_Inugami-Korone.png",
+    fileName: "public/thumbnails/hBP03-006_Inugami-Korone.png",
     cardNumber: "hBP03-006",
     cardName: "Inugami Korone",
     rarity: "OSR",
   },
   {
-    fileName: "images/thumbnails/hBP06-001_Raora-Panthera.png",
+    fileName: "public/thumbnails/hBP06-001_Raora-Panthera.png",
     cardNumber: "hBP06-001",
     cardName: "Raora Panthera",
     rarity: "OSR",
   },
   {
-    fileName: "images/thumbnails/hBP06-003_Kazama-Iroha.png",
+    fileName: "public/thumbnails/hBP06-003_Kazama-Iroha.png",
     cardNumber: "hBP06-003",
     cardName: "Kazama Iroha",
     rarity: "OSR",
   },
   {
-    fileName: "images/thumbnails/hBP06-004_Nakiri-Ayame.png",
+    fileName: "public/thumbnails/hBP06-004_Nakiri-Ayame.png",
     cardNumber: "hBP06-004",
     cardName: "Nakiri Ayame",
     rarity: "OSR",
   },
   {
-    fileName: "images/thumbnails/hEB01-001_Tokino-Sora.png",
+    fileName: "public/thumbnails/hEB01-001_Tokino-Sora.png",
     cardNumber: "hEB01-001",
     cardName: "Tokino Sora",
     rarity: "OSR",
   },
   {
-    fileName: "images/thumbnails/hEB01-002_Houshou-Marine.png",
+    fileName: "public/thumbnails/hEB01-002_Houshou-Marine.png",
     cardNumber: "hEB01-002",
     cardName: "Houshou Marine",
     rarity: "OSR",
   },
   {
-    fileName: "images/thumbnails/hEB01-003_Hakui-Koyori.png",
+    fileName: "public/thumbnails/hEB01-003_Hakui-Koyori.png",
     cardNumber: "hEB01-003",
     cardName: "Hakui Koyori",
     rarity: "OSR",
