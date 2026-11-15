@@ -208,6 +208,30 @@ const thumbnailOptions = [
   {
     fileName: "images/thumbnails/SoraKiara.png",
     optionText: "Sora Kiara",
+  },
+  {
+    fileName: "images/thumbnails/hBP01-007_Hoshimachi-Suisei.png",
+    optionText: "Suisei",
+  },
+  {
+    fileName: "images/thumbnails/hBP02-007_Mori-Calliope.png",
+    optionText: "Mori Calliope",
+  },
+  {
+    fileName: "images/thumbnails/hBP06_Roboco.png",
+    optionText: "Roboco",
+  },
+  {
+    fileName: "images/thumbnails/hBP06-002_Isaki-Riona.png",
+    optionText: "Riona",
+  },
+  {
+    fileName: "images/thumbnails/hSD06-001_Kazama-Iroha.png",
+    optionText: "Starter Iroha",
+  },
+  {
+    fileName: "images/thumbnails/hSD10-Rindo-Chihaya.png",
+    optionText: "Chihaya",
   }
 ].sort((a, b) => {
   if (a.optionText > b.optionText) {
