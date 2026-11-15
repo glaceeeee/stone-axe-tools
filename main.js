@@ -139,51 +139,37 @@ async function generate() {
 const thumbnailOptions = [
   {
     fileName: "public/thumbnails/hBP03-006_Inugami-Korone.png",
-    cardNumber: "hBP03-006",
-    cardName: "Inugami Korone",
-    rarity: "OSR",
+    optionText: "Korone",
   },
   {
     fileName: "public/thumbnails/hBP06-001_Raora-Panthera.png",
-    cardNumber: "hBP06-001",
-    cardName: "Raora Panthera",
-    rarity: "OSR",
+    optionText: "Raora",
   },
   {
     fileName: "public/thumbnails/hBP06-003_Kazama-Iroha.png",
-    cardNumber: "hBP06-003",
-    cardName: "Kazama Iroha",
-    rarity: "OSR",
+    optionText: "Iroha",
   },
   {
     fileName: "public/thumbnails/hBP06-004_Nakiri-Ayame.png",
-    cardNumber: "hBP06-004",
-    cardName: "Nakiri Ayame",
-    rarity: "OSR",
+    optionText: "Ayame",
   },
   {
     fileName: "public/thumbnails/hEB01-001_Tokino-Sora.png",
-    cardNumber: "hEB01-001",
-    cardName: "Tokino Sora",
-    rarity: "OSR",
+    optionText: "Summer Sora",
   },
   {
     fileName: "public/thumbnails/hEB01-002_Houshou-Marine.png",
-    cardNumber: "hEB01-002",
-    cardName: "Houshou Marine",
-    rarity: "OSR",
+    optionText: "Summer Marine",
   },
   {
     fileName: "public/thumbnails/hEB01-003_Hakui-Koyori.png",
-    cardNumber: "hEB01-003",
-    cardName: "Hakui Koyori",
-    rarity: "OSR",
+    optionText: "Summer Koyori",
   }
 ].sort((a, b) => {
-  if (a.cardName > b.cardName) {
+  if (a.optionText > b.optionText) {
     return 1;
   }
-  if (a.cardName < b.cardName) {
+  if (a.optionText < b.optionText) {
     return -1;
   }
   return 0;
@@ -191,8 +177,8 @@ const thumbnailOptions = [
 
 const thumbnailSelectors = document.querySelectorAll("select.thumbnail-selector");
 thumbnailSelectors.forEach(selector => {
-  thumbnailOptions.forEach(({ fileName, cardNumber, cardName, rarity }) => {
-    const optionText = `${cardName} - ${cardNumber} - ${rarity}`;
+  thumbnailOptions.forEach(({ fileName, optionText }) => {
+    const optionText = optionText;
     const option = document.createElement("option");
     option.value = fileName;
     option.textContent = optionText;
