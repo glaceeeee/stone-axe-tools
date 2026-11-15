@@ -232,7 +232,15 @@ const thumbnailOptions = [
   {
     fileName: "images/thumbnails/hSD10-Rindo-Chihaya.png",
     optionText: "Chihaya",
-  }
+  },
+  {
+    fileName: "images/thumbnails/hBP06-008_Natsuiro-Matsuri.png",
+    optionText: "Matsuri",
+  },
+  {
+    fileName: "images/thumbnails/RionaChihaya.png",
+    optionText: "Riona Chihaya",
+  },
 ].sort((a, b) => {
   if (a.optionText > b.optionText) {
     return 1;
