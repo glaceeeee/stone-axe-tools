@@ -241,6 +241,10 @@ const thumbnailOptions = [
     fileName: "images/thumbnails/RionaChihaya.png",
     optionText: "Riona Chihaya",
   },
+  {
+    fileName: "images/thumbnails/GigiMarine.png",
+    optionText: "Gigi Marine",
+  }
 ].sort((a, b) => {
   if (a.optionText > b.optionText) {
     return 1;
