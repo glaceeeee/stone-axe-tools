@@ -178,7 +178,6 @@ const thumbnailOptions = [
 const thumbnailSelectors = document.querySelectorAll("select.thumbnail-selector");
 thumbnailSelectors.forEach(selector => {
   thumbnailOptions.forEach(({ fileName, optionText }) => {
-    const optionText = optionText;
     const option = document.createElement("option");
     option.value = fileName;
     option.textContent = optionText;
