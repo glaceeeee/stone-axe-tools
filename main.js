@@ -164,6 +164,50 @@ const thumbnailOptions = [
   {
     fileName: "images/thumbnails/hEB01-003_Hakui-Koyori.png",
     optionText: "Summer Koyori",
+  },
+  {
+    fileName: "images/thumbnails/GigiCece.png",
+    optionText: "Autofister",
+  },
+  {
+    fileName: "images/thumbnails/GigiChloe.png",
+    optionText: "Gigi Chloe",
+  },
+  {
+    fileName: "images/thumbnails/hBP01-006_Takanashi-Kiara.png",
+    optionText: "Kiara",
+  },
+  {
+    fileName: "images/thumbnails/hBP02-004_Sakamata-Chloe.png",
+    optionText: "Chloe",
+  },
+  {
+    fileName: "images/thumbnails/hBP04-001_Hakui-Koyori.png",
+    optionText: "White Koyori",
+  },
+  {
+    fileName: "images/thumbnails/hBP04-002_Juufuutei-Raden_OUR.png",
+    optionText: "Raden OUR",
+  },
+  {
+    fileName: "images/thumbnails/hSD12-001_Shiori-Novella.png",
+    optionText: "Shiori",
+  },
+  {
+    fileName: "images/thumbnails/hSD13-002_Gigi-Murin.png",
+    optionText: "Gigi",
+  },
+  {
+    fileName: "images/thumbnails/KoyoriIroha.png",
+    optionText: "White Koyori Iroha",
+  },
+  {
+    fileName: "images/thumbnails/ShioriBiboo.png",
+    optionText: "Shiori Biboo",
+  },
+  {
+    fileName: "images/thumbnails/SoraKiara.png",
+    optionText: "Sora Kiara",
   }
 ].sort((a, b) => {
   if (a.optionText > b.optionText) {
