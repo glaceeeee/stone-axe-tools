@@ -244,6 +244,46 @@ const thumbnailOptions = [
   {
     fileName: "images/thumbnails/GigiMarine.png",
     optionText: "Gigi Marine",
+  },
+  {
+    fileName: "images/thumbnails/hBP02-003_Houshou-Marine.png",
+    optionText: "Red Marine",
+  },
+  {
+    fileName: "images/thumbnails/hBP07-001_Tsunomaki-Watame.png",
+    optionText: "White Watame",
+  },
+  {
+    fileName: "images/thumbnails/hBP07-002_VestiaZeta.png",
+    optionText: "Zeta",
+  },
+  {
+    fileName: "images/thumbnails/hBP07-003_Ookami-Mio.png",
+    optionText: "Mio",
+  },
+  {
+    fileName: "images/thumbnails/hBP07-004_Akai-Haato.png",
+    optionText: "Haachama",
+  },
+  {
+    fileName: "images/thumbnails/hBP07-005_Ouro-Kronii.png",
+    optionText: "Kronii",
+  },
+  {
+    fileName: "images/thumbnails/hBP07-006_Azki.png",
+    optionText: "Purple Azki",
+  },
+  {
+    fileName: "images/thumbnails/hBP07-007_Momosuzu-Nene.png",
+    optionText: "Nene",
+  },
+  {
+    fileName: "images/thumbnails/hSD13-001_Elizabeth-Rose-Bloodflame.png",
+    optionText: "Elizabeth Rose Bloodflame",
+  },
+  {
+    fileName: "images/thumbnails/LizMarine.png",
+    optionText: "Liz Marine",
   }
 ].sort((a, b) => {
   if (a.optionText > b.optionText) {
