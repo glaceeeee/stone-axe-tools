@@ -202,8 +202,12 @@ const thumbnailOptions = [
     optionText: "White Koyori Iroha",
   },
   {
+    fileName: "images/thumbnails/BibooShiori.png",
+    optionText: "BibooShiori",
+  },,
+  {
     fileName: "images/thumbnails/ShioriBiboo.png",
-    optionText: "Shiori Biboo",
+    optionText: "ShioriBiboo",
   },
   {
     fileName: "images/thumbnails/SoraKiara.png",
